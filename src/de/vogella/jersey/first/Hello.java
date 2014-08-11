@@ -22,7 +22,7 @@ public class Hello {
   @GET
   @Produces(MediaType.TEXT_PLAIN)
   public String sayPlainTextHello() {
-    return "Hello Jersey";
+    return "Hello Jersey from dev";
   }
 
   // This method is called if XML is request
